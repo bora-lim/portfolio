@@ -1,0 +1,230 @@
+@media screen and (max-width: 1440px) {
+  .main-stit {
+    font-size: 3rem;
+  }
+  .works-list li a {
+    font-size: 3rem;
+  }
+  .des-list > li .pj-des li {
+    font-size: 1rem;
+  }
+  .contact-stit {
+    padding-left: 6em;
+
+    span {
+      font-size: 1rem;
+    }
+    .send-mail {
+      font-size: 2rem;
+    }
+    .view-cv {
+      font-size: 1.2rem;
+    }
+
+    &:before {
+      font-size: 5rem;
+    }
+  }
+}
+@media screen and (max-width: 1023px) {
+  html {
+    font-size: 12px;
+  }
+  .logo {
+    span {
+      font-size: 3.5rem;
+    }
+    p {
+      &:first-child span {
+        letter-spacing: 1.3rem;
+      }
+      &:nth-child(2) span {
+        letter-spacing: 0.5rem;
+      }
+      &:last-child span {
+        font-size: 1.5rem;
+      }
+    }
+    &.on {
+      top: 30px;
+      left: 30px;
+    }
+  }
+
+  nav {
+    top: 30px;
+  }
+
+  .grid-wr {
+    left: 30px;
+    right: 30px;
+
+    div {
+      &:first-child {
+        margin-left: 10%;
+      }
+      &:nth-child(2) {
+        margin-left: 23%;
+      }
+      &:nth-child(3) {
+        margin-left: 85%;
+        display: none;
+      }
+    }
+  }
+
+  .container {
+    padding: 30px 30px;
+  }
+  section {
+    margin-bottom: 40vh;
+  }
+
+  /* main-sec01 */
+  .main-num {
+    margin-left: 10%;
+
+    span {
+      display: block;
+      padding-top: 35vh;
+    }
+  }
+
+  .main-cont {
+    width: 67%;
+    margin-left: 23%;
+  }
+
+  .main-stit {
+    font-size: 3rem;
+    letter-spacing: -1px;
+  }
+  .typing:after {
+    width: 2px;
+    right: -10px;
+  }
+
+  .works-list {
+    li {
+      margin-bottom: 6em;
+      padding-left: 5em;
+      line-height: 12em;
+
+      &:after {
+        position: absolute;
+        content: "";
+        width: 40vw;
+        height: 20vw;
+        left: -19.3%;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0.6;
+        z-index: -1;
+      }
+      &:first-child:after {
+        background: url("../images/pj001_pc.jpg") no-repeat center center;
+        background-size: cover;
+      }
+      &:nth-child(2):after {
+        background: url("../images/pj002_pc.jpg") no-repeat center center;
+        background-size: cover;
+      }
+      &:nth-child(3):after {
+        background: url("../images/pj003_pc.jpg") no-repeat center center;
+        background-size: cover;
+      }
+      &:nth-child(4):after {
+        background: url("../images/pj004_pc.jpg") no-repeat center center;
+        background-size: cover;
+      }
+      &:nth-child(5):after {
+        background: url("../images/pj005_pc.jpg") no-repeat center center;
+        background-size: cover;
+      }
+
+      a {
+        font-size: 3rem;
+
+        &:before,
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .works-img {
+    display: none;
+  }
+
+  /* main-sec04 */
+  .contact-stit {
+    padding-left: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+  .logo {
+    span {
+      font-size: 2rem;
+    }
+
+    p {
+      &:first-child span {
+        letter-spacing: 0.5rem;
+      }
+      &:nth-child(2) span {
+        letter-spacing: 0.1rem;
+      }
+      &:last-child {
+        padding-right: 0.3rem;
+      }
+    }
+  }
+  section {
+    margin-bottom: 50vh;
+  }
+
+  /* main-sec01 */
+  .main-num {
+    span {
+      padding-top: 27vh;
+    }
+  }
+  .main-cont {
+    width: 77%;
+  }
+  .main-tit {
+    margin: 5vh 0 10vh 0;
+  }
+  .main-stit {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+
+  .works-list {
+    li {
+      margin-bottom: 5em;
+      padding-left: 2.5em;
+      line-height: 5em;
+
+      a {
+        font-size: 2rem;
+      }
+
+      &:after {
+        left: -16.5%;
+      }
+    }
+  }
+
+  .contact-stit .send-mail {
+    font-size: 1.5rem;
+  }
+}
