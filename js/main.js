@@ -26,7 +26,7 @@ window.setTimeout(() => {
 }, 2500);
 
 logo[3].addEventListener('click', () => {
-  location.href = "/";
+  location.href = "https://bora-lim.github.io/portfolio/";
 })
 
 /* scroll시 해당 section 및 gnb 활성화 */
