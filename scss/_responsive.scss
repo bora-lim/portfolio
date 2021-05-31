@@ -172,6 +172,12 @@
     display: none;
   }
 
+  /* main-sec03 */
+  .side-list {
+    & > li {
+      padding-right: 2em;
+    }
+  }
   /* main-sec04 */
   .contact-stit {
     padding-left: 0;
