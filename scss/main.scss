@@ -222,8 +222,36 @@ section {
   }
 }
 
-/* main-sec04 */
+/* main-sec03 */
+.side-list {
+  display: flex;
 
+  & > li {
+    a {
+      display: block;
+
+      h2 {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+      }
+
+      img {
+        opacity: 0.7;
+        border-radius: 3rem;
+      }
+    }
+
+    &:first-child {
+      padding-right: 5em;
+
+      img {
+        background: #eee;
+      }
+    }
+  }
+}
+
+/* main-sec04 */
 .contact-stit {
   position: relative;
   padding-left: 10em;
